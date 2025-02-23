@@ -1,0 +1,51 @@
+.container {
+    padding-top: 15px;
+    width: 320px;
+    border: 1px solid #181717;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statsList {
+    display: flex;
+  
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    border-top: 1px solid #838181;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  .statsItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #535353;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .statsItem:last-child {
+    border-right: none; 
+  }
+  
+  .img {
+    background-color: rgb(54, 53, 53);
+    width: 100px;
+    border-radius: 50%;
+  }
+  .name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .text {
+    font-size: 20px;
+    color: #b6b3b3;
+  }  
